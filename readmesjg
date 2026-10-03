@@ -1,0 +1,5 @@
+current process
+1. run build.sh in SDL
+2. run makeclean then make in this folder
+3. run ./build.sh in this folder (builds the a file for xros)
+

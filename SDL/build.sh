@@ -1,0 +1,1 @@
+gcc -g -fpic -mcpu=apple-m2 -target arm64-apple-visionos -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/XROS.platform/Developer/SDKs/XROS.sdk -O2 -Wall -g -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -MMD -D_GNU_SOURCE -DCONFIG_VERSION=\"2018-09-23\" -DCONFIG_SDL -DCONFIG_RISCV_MAX_XLEN=128 -c SDL.c -o SDL.o
